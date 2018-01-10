@@ -7,3 +7,13 @@
     3.Convert seconds to minutes
  
  */
+import Foundation
+
+
+
+//Function to convert inches to feet
+//Postcondition : an integer for feet is returned
+func inchesToFeet(for inches: Int) -> Int{
+    
+    return inches / 12
+}
