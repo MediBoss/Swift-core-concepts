@@ -17,3 +17,9 @@ func inchesToFeet(for inches: Int) -> Int{
     
     return inches / 12
 }
+//Function to convert minutes to hours
+//Postcondition : an integer for hours is returned
+func minutesToHours(for minutes: Int) -> Int{
+    
+    return minutes / 60
+}
