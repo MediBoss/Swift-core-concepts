@@ -46,3 +46,13 @@ func userChoice(for input: Int){
         print("\(seconds) seconds equals to \(secondsToMinutes(for: seconds)) Minutes")
     }
 }
+//MAIN
+
+
+let inches = 248
+let minutes = 3476
+let seconds = 4390
+
+userChoice(for: 1)
+userChoice(for: 2)
+userChoice(for: 3)
