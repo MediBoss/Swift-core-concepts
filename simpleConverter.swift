@@ -23,3 +23,10 @@ func minutesToHours(for minutes: Int) -> Int{
     
     return minutes / 60
 }
+
+//Function to convert seconds to minutes
+//Postcondition : an integer for minutes is returned
+func secondsToMinutes(for seconds: Int) -> Int{
+    
+    return seconds / 60
+}
