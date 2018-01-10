@@ -30,3 +30,19 @@ func secondsToMinutes(for seconds: Int) -> Int{
     
     return seconds / 60
 }
+//Function to compute conversion using control statements
+func userChoice(for input: Int){
+    
+    if input == 1{
+     
+        print("\(inches) inches equals to \(inchesToFeet(for: inches)) Feet")
+        
+    }else if input == 2{
+        
+        print("\(minutes) minutes equals to \(minutesToHours(for: minutes)) minutes")
+        
+    }else if input == 3{
+        
+        print("\(seconds) seconds equals to \(secondsToMinutes(for: seconds)) Minutes")
+    }
+}
