@@ -23,3 +23,18 @@ func getHighestAverage(classOne : [Double], clasTwo: [Double]) -> Double{
     return 0
 }
 
+        //Funtion to get the average score of an exam (in array)
+func getAverage(anyClass: [Double]) -> Double{
+    
+        var sum = 0.0
+    
+    for score in anyClass{
+        
+        sum = sum + score
+    }
+    
+    return sum/Double(anyClass.count)
+    
+}
+
+
