@@ -37,4 +37,22 @@ func getAverage(anyClass: [Double]) -> Double{
     
 }
 
+        //Function to get the coomon grades between two classes'cexam scores
+
+func getCommonScores(classOne: [Double], classTwo: [Double]) ->[Double]{
+    
+   var commonGrades : [Double] = []
+    
+    for i in 0..<classOne.count{
+        
+        if classOne[i] == classTwo[i]{
+            
+            commonGrades[i] = classOne[i]
+        }else{
+            continue
+        }
+    }
+    
+    return commonGrades
+}
 
