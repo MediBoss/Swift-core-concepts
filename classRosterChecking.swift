@@ -30,3 +30,10 @@ var cs300 = [// A dictionary that contais the list of students of a certain clas
     765534 : "Ricardo Gonzalez"
 ]
 
+ //  TESTING THE FUNTION
+
+
+print("Does student \(cs300[674532]!) belongs in CS300- Data Structures : \(checkRoster(for : cs300,for : 674532))")
+print("Does student \(cs300[087567]!) belongs in CS300- Data Structures : \(checkRoster(for : cs300,for : 087567))")
+print("Does student Melanie Abreu belongs in CS300- Data Structures : \(checkRoster(for : cs300,for : 897687))")
+print("Does student \(cs300[765534]!) belongs in CS300- Data Structures : \(checkRoster(for : cs300,for : 674532))")
