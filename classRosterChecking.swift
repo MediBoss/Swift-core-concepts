@@ -16,7 +16,7 @@ func checkRoster(for classDict : Dictionary<Int,String>,for studentId : Int) -> 
     return false
 }
 
-var cs300 = [
+var cs300 = [// A dictionary that contais the list of students of a certain class called cs300 : Data Structures
 
     094567 : "Ahmad Ahmad",
     087567 : "Medi Assumani",
@@ -27,3 +27,4 @@ var cs300 = [
     786545 : "Michale Beasly",
     765534 : "Ricardo Gonzalez"
 ]
+
