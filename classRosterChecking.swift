@@ -15,3 +15,15 @@ func checkRoster(for classDict : Dictionary<Int,String>,for studentId : Int) -> 
     //if it's not valid, return false
     return false
 }
+
+var cs300 = [
+
+    094567 : "Ahmad Ahmad",
+    087567 : "Medi Assumani",
+    898646 : "Macheline Ernestro",
+    765489 : "Maceline Ambroise",
+    674532 : "Elizabeth Duong",
+    645325 : "Terence Jhon",
+    786545 : "Michale Beasly",
+    765534 : "Ricardo Gonzalez"
+]
