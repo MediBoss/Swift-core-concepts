@@ -52,5 +52,5 @@ class Person{
 }
 
 var humanOne = Person(for : "Medi Assumani",for : 18, for : false, for : Gender.Male) // creates an instance of a Person
-
+var humanTwo = Person("Regina Castro", 34, true,Gender.Female)
 
