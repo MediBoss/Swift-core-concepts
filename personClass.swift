@@ -13,16 +13,18 @@ class Person{
     var isMarried : Bool
     var gender : Gender
     
-    init(fullName: String, age : Int, isMarried : Bool, gender : Gender){
+    init(for fullName: String,for age : Int,for isMarried : Bool,for gender : Gender){
         
         self.fullName = fullName
         self.age = age
         self.isMarried = isMarried
         self.gender = gender
-           
+        
+        
     }
     
 }
 
+var humanOne = Person(for : "Medi Assumani",for : 18, for : false, for : Gender.Male) // creates an instance of a Person
 
 
