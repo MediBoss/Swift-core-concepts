@@ -1,5 +1,8 @@
 # swift-projects
-A list of my projects in swift to master swift syntax(let, var, func, etc...) and topics(classes,variables, constants,arrays, optionals,etc...)
+A list of my projects in swift to master : 
+
+1. Swift syntax(let, var, func, etc...) 
+2. Topics(classes,variables, constants,arrays, optionals,etc...)
 
 1. Simple Calculator Converter
 2. Make's School "Optional" challenge
