@@ -1,3 +1,10 @@
+/*
+    
+    IMPORTANT : CLASSES ARE OF REFERENCE TYPE
+*/
+
+
+
 import Foundation
 
 enum Gender{
