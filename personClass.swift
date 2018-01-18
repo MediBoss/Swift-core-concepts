@@ -54,3 +54,8 @@ class Person{
 var humanOne = Person(for : "Medi Assumani",for : 18, for : false, for : Gender.Male) // creates an instance of a Person
 var humanTwo = Person("Regina Castro", 34, true,Gender.Female)
 
+            //SHOWING THAT CLASS ARE REFERNCE TYPE (POINTERS ?)
+humanOne = humanTwo //humanOne is not a copy of humanTwo, but IS humanTwo
+
+print(humanOne.getName()) // prints Regina Castro instead of Medi Assumani
+
