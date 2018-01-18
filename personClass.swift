@@ -23,6 +23,25 @@ class Person{
         
     }
     
+    func getName() -> String{
+        
+        return name
+    }
+    
+    func getAge() -> Int{
+        
+        return age
+    }
+    
+    func isPersonMarried() -> Bool{
+        
+        return isMarried
+    }
+    
+    func getGender() -> Gender{
+        
+        return gender
+    }
 }
 
 var humanOne = Person(for : "Medi Assumani",for : 18, for : false, for : Gender.Male) // creates an instance of a Person
