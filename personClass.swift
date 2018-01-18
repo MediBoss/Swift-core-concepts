@@ -19,9 +19,7 @@ class Person{
         self.age = age
         self.isMarried = isMarried
         self.gender = gender
-        
-        
-        
+           
     }
     
 }
