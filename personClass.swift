@@ -3,16 +3,12 @@
     IMPORTANT : CLASSES ARE OF REFERENCE TYPE
 */
 
-
-
 import Foundation
 
-enum Gender{
-    
+enum Gender{  
     case Male
     case Female
 }
-
 class Person{
     
     var fullName : String
@@ -25,11 +21,9 @@ class Person{
         self.fullName = fullName
         self.age = age
         self.isMarried = isMarried
-        self.gender = gender
-        
-        
+        self.gender = gender   
     }
-    
+ 
     func getName() -> String{
         
         return name
@@ -58,4 +52,3 @@ var humanTwo = Person("Regina Castro", 34, true,Gender.Female)
 humanOne = humanTwo //humanOne is not a copy of humanTwo, but IS humanTwo
 
 print(humanOne.getName()) // prints Regina Castro instead of Medi Assumani
-
