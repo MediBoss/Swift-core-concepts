@@ -7,9 +7,9 @@ A list of my projects in swift to master :
 * Object Oriented Programming in Swift
 * Protocols
 
-# List Of Exercises
-      
-1. Simple Calculator Converter
-2. Make's School "Optional" challenge
-3. Class Roster Checking
-4. Person Class
+# Topics include :
+  * Class
+  * Struct
+  * ContiguousArray
+  * Map, Filter, reduce
+  * Closures
