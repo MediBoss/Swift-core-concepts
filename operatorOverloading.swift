@@ -29,7 +29,6 @@ func *(parameterOne: [Int], parameterTwo: [Int]) ->[Int]{
 
     // this function creates a new operation, **, to simplify the exponentiation of two numbers
 func **(firstValue: Int, secondValue: Int) -> Double{
-    
     return pow(Double(firstValue), Double(secondValue))
 }
 
