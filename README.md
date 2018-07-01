@@ -1,4 +1,4 @@
-# Swift Core Concetps and Exercises
+# Swift Core Concetps and Fundamentals
 
 Preparing for Product College's iOS Track. After all, Swift's complex frameworks and modules are built off the basic and fundamental concepts, no?
 
