@@ -1,15 +1,13 @@
 # swift-projects
 
-A list of my projects in swift to master : 
-
-* Swift syntax(let, var, func, etc...) 
-* Topics(classes,variables, constants,arrays, enums, optionals,etc...)
-* Object Oriented Programming in Swift
-* Protocols
+Preparing for Product College's iOS Track. After all, Swift's complex frameworks and modules are built off the basic and fundamental concepts, no?
 
 # Topics include :
   * Class
   * Struct
-  * ContiguousArray
   * Map, Filter, reduce
   * Closures
+  * Error
+  * Protocols
+  * Generics
+  * Collections (Array, Dictionary,Tuple, Set, ContiguousArray)
