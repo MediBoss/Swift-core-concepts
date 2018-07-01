@@ -1,4 +1,4 @@
-# swift-projects
+# Swift Core Concetps and Exercises
 
 Preparing for Product College's iOS Track. After all, Swift's complex frameworks and modules are built off the basic and fundamental concepts, no?
 
