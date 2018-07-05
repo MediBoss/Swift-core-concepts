@@ -7,6 +7,7 @@
 2. Filter : Used to filter out the collection based on some requirements
 3. FlatMap : Flatens the collection, and gets rid of nil values
 
+NOTE : Before you can use them , make sure you can at least perform those operations logically(wthe regular way)
 **/
 
 import Foundation
