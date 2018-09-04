@@ -8,3 +8,7 @@ movie.insertAtIndex("", at : 0) // add at specific index
 movie.removeAt
 
 movie[0] = "movie"
+
+repeat {
+    //statements
+} while //condition
