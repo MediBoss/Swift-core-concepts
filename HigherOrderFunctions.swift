@@ -28,6 +28,22 @@ print(testScores.filter { $0 > 80 })
 print(topSchools.filter { $1 < 500}) 
 print(testScores.flatMap { $0 })
 
+                        // Using reduce
+//The reduce function allows you to combine all the elements in an array and return an object of any type (generics!!!!)
+var strings: [String] = ["Another", "Brick", "In", "The", "Wall"]
+
+// One way
+var result = strings.reduce("") { (result, a) -> String in
+    return result + String(a)
+}
+
+// Another way
+var result_two = strings.reduce("", { $0 + String($1)})
+
+print(result)
+print(result_two)
+
+
             // Chaining Higher Order Functions
 
 let arrayofNumbers = [[1,2,3,4],[5,6,7,8],[12,30,56,90,3,15,60]]
