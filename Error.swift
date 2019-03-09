@@ -7,7 +7,7 @@ import Foundation
     NOTES
  
  1. All errors you want to throw must be an enum that conforms to the Error protocol
- 2. The "rethrows" keyword an be used when function to be passed can/cant throw error so you wont have to use try/catch over and over gain
+ 2. The "rethrows" keyword can be used when function to be passed can/cant throw error so you wont have to use try/catch over and over gain
  */
 extension String: Error{} // to throw string types
 
