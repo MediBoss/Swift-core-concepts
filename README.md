@@ -1,6 +1,6 @@
 # Swift Core Concetps and Fundamentals
 
-Preparing for Product College's iOS Track. After all, Swift's complex frameworks and modules are built off the basic and fundamental concepts, no?
+This repository is a reference point for me to check back on Swift's core fundamentals.
 
 # Topics include :
   * Class
