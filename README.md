@@ -3,6 +3,7 @@
 This repository is a reference point for me to check back on Swift's core fundamentals.
 
 # Topics include :
+
   * Class
   * Struct
   * Map, Filter, reduce
@@ -11,4 +12,4 @@ This repository is a reference point for me to check back on Swift's core fundam
   * Protocols
   * Generics
   * Collections (Array, Dictionary,Tuple, Set, ContiguousArray)
-  * Operator Overloading(Yo this thing is amazing)
+  * Operator Overloading
