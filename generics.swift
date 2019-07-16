@@ -6,6 +6,26 @@ struct Container<T> {
     var date: Date
 }
 
+
+protocol Identifiable {
+    associatedtype ID: Equatable & CustomStringConvertible
+    var id: ID { get }
+}
+
+struct Article: Identifiable {
+    
+    let id: UUID
+    var title: String
+    var body: String
+}
+
+struct Tag: Identifiable {
+    
+    let id: Int
+    var name: String
+}
+
+
 class Cache<Key: Hashable, T>{
     
     private var values = [Key: Container<T>]()
@@ -33,4 +53,9 @@ class Cache<Key: Hashable, T>{
         
         return container.value
     }
+}
+
+class ArticleManager {
+    
+    private var cachedArticles = Cache<Article.id, Article>
 }
