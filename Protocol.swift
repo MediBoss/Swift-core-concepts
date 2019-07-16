@@ -1,10 +1,5 @@
-import Foundation
 import UIKit
-
-public struct DownloadManager {
-    
-    init() {}
-}
+import Foundation
 
 public enum Progress {
     
@@ -15,16 +10,37 @@ public enum Progress {
     case inBackground
 }
 
-
-protocol DownloadManagerDelegate: AnyObject {
+protocol DownloadManagerDelegate{
     
+    associatedtype T
+    
+    var items: [T] { get set}
+    var maxNumberOfDownloads: Int { get }
+    
+    mutating func addDownloadedItem(forItem item: T)
     func downloadManager(_ sender: DownloadManager, isDownloading progress:  Progress)
     func downloadManager(_ sender: DownloadManager, hasCompleted progress: Progress)
     func downloadManager(_ sender: DownloadManager, hasFailed progress: Progress)
     func downloadManager(_ sender: DownloadManager, hasEnteredBackground progress: Progress)
 }
 
+extension DownloadManagerDelegate {
+    
+    mutating func addDownloadedItem(forItem item: T) {
+        
+        items.append(item)
+    }
+}
+
+public struct DownloadManager {
+    
+    init() {}
+}
+
 class Movie: DownloadManagerDelegate {
+    
+    var maxNumberOfDownloads: Int = 12
+    var items = [String]()
     
     init() {}
     
